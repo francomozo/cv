@@ -1,0 +1,287 @@
+<!-- ICONS https://fontawesome.com/v4/icons/ -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Franco Mozo - Electrical Engineer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link id="theme-link" rel="stylesheet" type="text/css" href="style_light.css" />
+    <script>
+        function toggleTheme() {
+            var theme = document.getElementById("theme-link");
+
+            if (theme.getAttribute('href') == 'style_light.css') {
+                theme.setAttribute('href', 'style_dark.css');
+            } else {
+                theme.setAttribute('href', 'style_light.css');
+            }
+        }
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <div class="profile-text">
+          <div class="img-bx">
+            <img src="img.jpeg" />
+          </div>
+          <h2>
+            Franco Mozo<br /><span>Electrical Engineer &</span><br /><span>ML Enthusiast</span>
+          </h2>
+        </div>
+
+        <div class="darkmode">
+            <input type="checkbox" id="darkmode-toggle", onclick="toggleTheme()"/>
+            <label for="darkmode-toggle">
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+                <i class="fa fa-moon-o" aria-hidden="true"></i>
+            </label>
+        </div>
+        
+        <div class="contact-info">
+          <h3 class="title">Contact Info</h3>
+          <ul>
+            <li>
+              <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+              <span class="text">
+                <a href="mailto: francomozo1@gmail.com">francomozo1@gmail.com</a>
+              </span>
+            </li>
+            
+            <li>
+              <span class="icon">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </span>
+              <span class="text">
+                <a href="https://www.linkedin.com/in/fmozo">linkedin.com/in/fmozo</a>
+              </span>
+            </li>
+            <li>
+              <span class="icon">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </span>
+              <span class="text">
+                <a href="https://github.com/francomozo">github.com/francomozo</a>
+              </span>
+            </li>
+            <li>
+              <span class="icon">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              </span>
+              <span class="text">Uruguay</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-info education">
+          <h3 class="title">Education</h3>
+          <ul>
+            <li>
+              <h5>2016 - 2022</h5>
+              <h4>Electrical Engineering</h4>
+              <h4>UdelaR, Uruguay</h4>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-info languages">
+          <h3 class="title">Languages</h3>
+          <ul>
+            <li>
+              <span class="text">Spanish (Native)</span>
+              <span class="percent">
+                <div style="width: 95%"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">English (First Certificate in English)</span>
+              <span class="percent">
+                <div style="width: 95%"></div>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="about">
+          <h2 class="title2">Profile</h2>
+          <p>
+            Hi there! My name is Franco Mozo and I am an Electrical Engineer
+            from Uruguay. My fields of specialization are
+            <b>signal processing</b> and <b>machine learning</b>, particularly
+            <b>computer vision</b>. I have a strong background in electrical
+            engineering and have completed projects focused on leveraging deep
+            learning and computer vision techniques to solve real-world
+            problems.
+          </p>
+          <p>
+            <br />My thesis "DeepCloud: Intraday Satellite Cloud Cover Nowcasting
+            using Deep Learning Strategies" (<a href="http://les.edu.uy/tesis/grado_deep-cloud.pdf">documentation</a>) 
+            was awarded the first place by the National Academy of
+            Engineering of Uruguay.
+          </p>
+        </div>
+
+        <div class="about">
+          <h2 class="title2">Experience</h2>
+          <div class="box">
+            <div class="year-company">
+              <h5>Feb 2022 - Present</h5>
+              <h5>Scanntech</h5>
+            </div>
+            <div class="text">
+              <h4>Semi-Senior Computer Vision Developer</h4>
+              <p>
+                Leverage state-of-the-art computer vision algorithms to solve
+                real-world problems.
+                <br /><i>Keywords: object detection, pose estimation, face recognition.</i>
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="year-company">
+              <h5>May 2019 - Feb 2021</h5>
+              <h5>State's Electrical <br />Power Company</h5>
+            </div>
+            <div class="text">
+              <h4>Telecommunications Operator</h4>
+              <p>
+                Operated the data network to ensure a reliable service.
+                <br /><i>Keywords: TCP/IP, MPLS, Fiber Optics, Mobile Networks.</i> 
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="year-company">
+              <h5>Nov 2018 - Mar 2019</h5>
+              <h5>Netlabs</h5>
+            </div>
+            <div class="text">
+              <h4>Software Developer Intern</h4>
+              <p>
+                Gained hands-on experience with a variety of devops technologies 
+                including Git, Docker, Kubernetes, AWS, CI/CD, databases, and networking.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about skills">
+          <h2 class="title2">Professional Skills</h2>
+          <div class="box">
+            <h4>Computer Vision</h4>
+            <div class="percent">
+              <div style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Python</h4>
+            <div class="percent">
+              <div style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Pytorch</h4>
+            <div class="percent">
+              <div style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Tensorflow</h4>
+            <div class="percent">
+              <div style="width: 50%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Linux</h4>
+            <div class="percent">
+              <div style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Git</h4>
+            <div class="percent">
+              <div style="width: 60%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Docker</h4>
+            <div class="percent">
+              <div style="width: 35%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>DVC</h4>
+            <div class="percent">
+              <div style="width: 40%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>AWS</h4>
+            <div class="percent">
+              <div style="width: 20%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about">
+            <h2 class="title2">Courses and Certifications</h2>
+            <div class="box">
+              <div class="year-company">
+                <h5>2022</h5>
+                <h5>DeepLearningAI</h5>
+              </div>
+              <div class="text">
+                <h4>Machine Learning Engineering for Production Specialization</h4>
+              </div>
+            </div>
+            <div class="box">
+                <div class="year-company">
+                  <h5>2020</h5>
+                  <h5>Tryolabs</h5>
+                </div>
+                <div class="text">
+                  <h4>Introduction to NLP</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="year-company">
+                  <h5>2020</h5>
+                  <h5>Stanford</h5>
+                </div>
+                <div class="text">
+                  <h4>cs231n</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="year-company">
+                  <h5>2020</h5>
+                  <h5>ITCollege</h5>
+                </div>
+                <div class="text">
+                  <h4>Fundamentals of Computer Networks</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="about interests">
+          <h2 class="title2">Interests and hobbies</h2>
+          <ul>
+            <li><i class="fa fa-music" aria-hidden="true"></i> Music</li>
+            <li><i class="fa fa-television" aria-hidden="true"></i> Movies</li>
+            <li><i class="fa fa-coffee" aria-hidden="true"></i> Coffee</li>
+            <li><i class="fa fa-male" aria-hidden="true"></i> Running</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
